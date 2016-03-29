@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Wolrd Phaser</title>
+</head>
+<body>
+Hola!
+<script src="./node_modules/phaser/dist/phaser.js"></script>
+<script>
+    var game = new Phaser.Game(
+            800, //altura
+            600, //ancho
+            Phaser.AUTO, //Per a carregar el controlador: OpenGL o canvas (HTML).
+            '', //marca en la que s'executarà el joc
+            {preload: preload, create:create, update:update}
+    );
+    function preload(){
+
+    }
+
+    function create(){
+
+    }
+
+    function update(){
+
+    }
+
+</script>
+</body>
+</html>
