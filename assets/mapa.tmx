@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="10" tilewidth="256" tileheight="256">
+ <tileset firstgid="1" name="Background" tilewidth="256" tileheight="256">
+  <image source="Tiles/Background.png" width="3400" height="2400"/>
+ </tileset>
+ <tileset firstgid="118" name="Tile_13" tilewidth="256" tileheight="256">
+  <image source="Tiles/Tile_13.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="119" name="Tile_11" tilewidth="256" tileheight="256">
+  <image source="Tiles/Tile_11.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="120" name="Tile_12" tilewidth="256" tileheight="256">
+  <image source="Tiles/Tile_12.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="121" name="Tile_10" tilewidth="256" tileheight="256">
+  <image source="Tiles/Tile_10.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="122" name="Tile_9" tilewidth="256" tileheight="256">
+  <image source="Tiles/Tile_9.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="123" name="Tile_8" tilewidth="256" tileheight="256">
+  <image source="Tiles/Tile_8.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="124" name="Tile_7" tilewidth="256" tileheight="256">
+  <image source="Tiles/Tile_7.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="125" name="Tile_6" tilewidth="256" tileheight="256">
+  <image source="Tiles/Tile_6.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="126" name="Tile_5" tilewidth="256" tileheight="256">
+  <image source="Tiles/Tile_5.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="127" name="Tile_4" tilewidth="256" tileheight="256">
+  <image source="Tiles/Tile_4.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="128" name="Tile_3" tilewidth="256" tileheight="256">
+  <image source="Tiles/Tile_3.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="129" name="Tile_2" tilewidth="256" tileheight="256">
+  <image source="Tiles/Tile_2.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="130" name="Tile_1" tilewidth="256" tileheight="256">
+  <image source="Tiles/Tile_1.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="131" name="sprite" tilewidth="256" tileheight="256">
+  <image source="Tiles/_Spritesheet.png" width="1792" height="1792"/>
+ </tileset>
+ <layer name="Background" width="40" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzF0EdTFFEYBdCBEQRJIkGyBBEQBZGghJ2CQ5acVEQlKCr5/3M2s+lqumeoqZrF2dz77rd4yUQi8YAiinlICaU8ooxyKgJdAYUks9iHZXGbx1TzhBpqqaOepzTQSFOgq6Qqy31YFrdppY1ntNNBJ108p5sX9AS6Zlqy3IdlcZuX9POK1wwwyBuGeMswI4Gul74s92FZ3GY0R8Z4x3vGmWCSKVLMMsc8CyxmuP3AR6aZ4VPEvaXA+1QG0nfuuhnnMyusssY6G2yyxTY77LJ3j/fLEZuoLn3vC1/5xj7fOYjIf/CTXxxyxDEnObgV9u4Pp/zlH/8545wLLrnimps8+J0nmf7LLaMmZLM=
+  </data>
+ </layer>
+ <layer name="Map" width="40" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFxIJKIC5HwhUD6xy6AGQ/k+tfmBnk6MdmPzXcNBhAExA34sENZJhJzbCpAeJqPLiKQvOJAchhRAuAL9xxxU8Dkv56IK6DYnLjDAaw2VeHBddisRubPDY1yHLIAJRuCKUXbPYBAJFWLWw=
+  </data>
+ </layer>
+ <objectgroup name="Arbres" width="40" height="10">
+  <object gid="161" x="484" y="2181"/>
+  <object gid="160" x="1159" y="1668"/>
+  <object gid="162" x="1226" y="2158"/>
+  <object gid="151" x="27" y="2164"/>
+  <object gid="144" x="20" y="1910"/>
+  <object x="1024" y="2073"/>
+  <object gid="178" x="814" y="2164"/>
+  <object gid="177" x="560" y="2164"/>
+  <object gid="167" x="811" y="1913"/>
+  <object gid="166" x="563" y="1910"/>
+  <object gid="175" x="2017" y="2164"/>
+  <object gid="176" x="2272" y="2167"/>
+  <object gid="169" x="2278" y="1913"/>
+  <object gid="168" x="2024" y="1910"/>
+  <object gid="165" x="1317" y="1649"/>
+  <object gid="158" x="1317" y="1398"/>
+  <object gid="157" x="1448" y="1649"/>
+  <object gid="137" x="2163" y="1137"/>
+  <object gid="151" x="2160" y="1140"/>
+  <object gid="144" x="2160" y="886"/>
+  <object gid="157" x="3151" y="2161"/>
+  <object gid="176" x="3302" y="2164"/>
+  <object gid="175" x="3051" y="2161"/>
+  <object gid="169" x="3302" y="1913"/>
+  <object gid="168" x="3051" y="1910"/>
+  <object gid="165" x="2384" y="2167"/>
+  <object gid="158" x="2378" y="1913"/>
+  <object gid="160" x="3554" y="1164"/>
+  <object gid="159" x="3696" y="1146"/>
+  <object gid="161" x="4860" y="922"/>
+  <object gid="161" x="3651" y="2640"/>
+  <object gid="135" x="4224" y="1919"/>
+  <object gid="162" x="5096" y="2161"/>
+  <object gid="135" x="5102" y="2180"/>
+  <object gid="155" x="6784" y="2422"/>
+  <object gid="142" x="9042" y="380"/>
+  <object gid="142" x="9536" y="383"/>
+  <object gid="142" x="9981" y="386"/>
+  <object gid="142" x="9217" y="376"/>
+  <object gid="157" x="9217" y="373"/>
+  <object gid="157" x="9311" y="373"/>
+  <object gid="157" x="9884" y="376"/>
+  <object gid="157" x="9839" y="383"/>
+  <object gid="165" x="9011" y="373"/>
+  <object gid="165" x="9936" y="376"/>
+  <object gid="165" x="9366" y="370"/>
+  <object gid="165" x="9178" y="376"/>
+  <object gid="165" x="9802" y="386"/>
+  <object gid="158" x="9014" y="119"/>
+  <object gid="158" x="9166" y="122"/>
+  <object gid="158" x="9360" y="116"/>
+  <object gid="158" x="9799" y="134"/>
+  <object gid="158" x="9942" y="122"/>
+  <object gid="176" x="9724" y="392"/>
+  <object gid="175" x="9469" y="395"/>
+  <object gid="169" x="9727" y="146"/>
+  <object gid="168" x="9484" y="152"/>
+  <object gid="161" x="8578" y="913"/>
+  <object gid="159" x="9430" y="373"/>
+  <object gid="160" x="8711" y="904"/>
+  <object gid="179" x="6014" y="1395"/>
+  <object gid="179" x="6563" y="1392"/>
+  <object gid="179" x="7102" y="1392"/>
+  <object gid="179" x="7608" y="1398"/>
+  <object gid="151" x="7357" y="1392"/>
+  <object gid="151" x="6827" y="1395"/>
+  <object gid="151" x="6269" y="1392"/>
+  <object gid="144" x="6263" y="1137"/>
+  <object gid="144" x="6817" y="1137"/>
+  <object gid="144" x="7351" y="1137"/>
+  <object gid="172" x="6024" y="1140"/>
+  <object gid="172" x="6560" y="1137"/>
+  <object gid="172" x="7102" y="1137"/>
+  <object gid="172" x="7602" y="1143"/>
+  <object gid="137" x="6169" y="1395"/>
+  <object gid="172" x="6314" y="1389"/>
+  <object gid="144" x="6578" y="1392"/>
+  <object gid="156" x="6672" y="1395"/>
+  <object gid="157" x="7075" y="1395"/>
+  <object gid="158" x="7033" y="1395"/>
+  <object gid="135" x="6481" y="1398"/>
+  <object gid="142" x="6978" y="1392"/>
+  <object gid="164" x="7733" y="1392"/>
+  <object gid="163" x="7539" y="1392"/>
+  <object gid="163" x="6584" y="1389"/>
+  <object gid="164" x="6839" y="1392"/>
+  <object gid="159" x="4824" y="867"/>
+  <object gid="162" x="7281" y="1392"/>
+  <object gid="176" x="9342" y="2164"/>
+  <object gid="175" x="9087" y="2161"/>
+  <object gid="169" x="9342" y="1910"/>
+  <object gid="168" x="9087" y="1907"/>
+  <object gid="158" x="9181" y="2167"/>
+  <object gid="172" x="9305" y="2164"/>
+  <object gid="137" x="9224" y="2155"/>
+  <object gid="159" x="9642" y="2158"/>
+  <object gid="167" x="9811" y="2173"/>
+  <object gid="166" x="9563" y="2173"/>
+  <object gid="179" x="9681" y="2131"/>
+  <object gid="172" x="9678" y="1876"/>
+  <object gid="151" x="4224" y="1904"/>
+  <object gid="144" x="4211" y="1649"/>
+  <object gid="137" x="4275" y="886"/>
+  <object gid="164" x="4481" y="876"/>
+  <object gid="163" x="4227" y="876"/>
+  <object gid="144" x="4396" y="883"/>
+  <object gid="149" x="4460" y="883"/>
+  <object gid="158" x="4557" y="880"/>
+  <object gid="144" x="2351" y="1137"/>
+  <object gid="179" x="2769" y="1143"/>
+  <object gid="172" x="2769" y="889"/>
+  <object gid="163" x="2393" y="1134"/>
+  <object gid="164" x="2630" y="1134"/>
+  <object gid="161" x="2442" y="2198"/>
+  <object gid="157" x="2257" y="2161"/>
+  <object gid="137" x="2708" y="2158"/>
+  <object gid="142" x="2824" y="2164"/>
+  <object gid="158" x="1896" y="2167"/>
+  <object gid="157" x="1899" y="2158"/>
+  <object gid="142" x="1987" y="2173"/>
+  <object gid="142" x="2139" y="2164"/>
+  <object gid="137" x="739" y="2170"/>
+  <object gid="172" x="599" y="2158"/>
+  <object gid="167" x="151" y="2161"/>
+  <object gid="166" x="-83" y="2161"/>
+  <object gid="149" x="1172" y="2164"/>
+  <object gid="149" x="7645" y="1398"/>
+  <object gid="135" x="7605" y="1395"/>
+  <object gid="135" x="7748" y="2683"/>
+  <object gid="164" x="4863" y="2161"/>
+ </objectgroup>
+</map>
